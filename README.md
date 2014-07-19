@@ -1,4 +1,4 @@
 superintendent
 ==============
 
-Orchestrating tasks expressed as function - playing with ideas for Gulp 
+Orchestrating tasks expressed as functions - playing with ideas for the future Gulp task system
