@@ -59,6 +59,11 @@ gulp.task('default', gulp.series(foo, gulp.parallel(bar, baz) , function(done) {
 });
 ```
 
+Such approach has several advantages over the current system:
+* it is possible to precisely control order of execution of dependent tasks
+* a set of dependent tasks to be executed could be built dynamically
+* using function dependencies instead of tasks make it possible to define / expose only tasks that make sense for the users; in a way those functions can act as "private tasks".
+
 ## Spec
 
 A discussion about a new task system for Gulp4 is scattered over several GitHub repositories and issues. I would love to
